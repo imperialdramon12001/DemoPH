@@ -20,9 +20,9 @@ class SimpleTest extends Sauce\Sausage\WebDriverTestCase
             'port' => 4723,
             'browserName' => '',
             'desiredCapabilities' => array(
-                'deviceName' => '=iPhone 5s',
+                'deviceName' => '=SAMSUNG',
                 'version' => '8.4 Simulator',
-                'platformName' => 'iOS',
+                'platformName' => 'ANDROID',
                 'app' => APP_PATH
             )
         )
